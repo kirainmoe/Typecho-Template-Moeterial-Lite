@@ -1,0 +1,71 @@
+/*Moeterial Lite CSS File*/
+body{
+	font-family: Comic sans ms,Microsoft Yahei;
+	background-color: #eee;
+}
+.art-body{
+	color:#000;
+	width:100%;
+}
+.tables{
+	margin-left:3%;
+	margin-right:3%;
+	margin-top:2%;
+}
+pre,code{
+	font-family:Comic sans ms,Microsoft Yahei;
+}
+.comments-title{
+	font-size:18px;
+	font-family: Microsoft Yahei;
+	text-align: center;
+	margin-bottom: 3px;
+	background-color: #03a9f4;
+	width:100%;
+	padding:10px;
+	color:#fff;
+	font-weight: normal;
+}
+.error{
+	background-color:red;
+}
+@media only screen and (max-width:992px){
+    .brand-logo{
+        font-size:24px;
+        width:85%;
+    }
+    #search{
+        display:none;
+    }
+    .card .card-content{
+        padding:8px;
+    }
+}
+.my-tags a{ color:#fff; }
+.comment-body{
+    padding:15px;
+    border:2px solid #eee;
+    box-shadow:0 3px 8px rgba(0,0,0,.23),0 3px 8px rgba(0,0,0,.16);
+    margin:6px;
+}
+.comment-author,.comment-meta{
+    display:inline;
+}
+@media screen and(max-width:992px){
+    .comment-meta{
+        display:none;
+    }
+}
+.comment-meta{
+    float:right;
+}
+.comment-content{
+    padding-top:8px;
+}
+.comment-list{
+    list-style:none;
+    padding-left:0px;
+}
+.comment-reply{
+    text-align:right;
+}
